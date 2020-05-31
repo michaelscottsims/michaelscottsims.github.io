@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'kosharimedium';
+    src: url('../fonts/koshari-webfont.woff2') format('woff2'),
+         url('../fonts/koshari-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'keisyaregular';
+    src: url('../fonts/keisya-webfont.woff2') format('woff2'),
+         url('../fonts/keisya-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFF;
+    color: #000;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    font-family: "keisyaregular";
+    font-size: 3vmax;
+    color: #FFF;
+    text-shadow: 1.5px 1.5px #000, 2px 2px #000;
+    padding: 10px 10px;
+}
+
+p:hover {
+    cursor: default;
+}
+
+.txt {
+    position: relative;
+    font-family: 'kosharimedium';
+    font-size: 3.3vmax;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.txt:hover {
+    top: -1px;
+    right: 1px;
+    cursor: pointer;
+    color: #228B22;
+    text-shadow: 1px 1px #000;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.tb {
+    height: 30vmax;
+}
+
+.txtbox {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#aboutme {
+    scroll-behavior: smooth;
+}
+
+#bg {
+    background: url("../img/bg2.jpg") top center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#skate {
+    background: url("../img/skate.jpg") bottom center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#flowers {
+    background: url("../img/flowers.jpg") top center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#flowers2 {
+    background: url("../img/flowers2.jpg") bottom center/cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#back {
+    position: fixed;
+    top: 7px;
+    left: 11px;
+}
+
+#copy {
+    color: #FFF;
+    position: fixed;
+    bottom: 7px;
+    right: 11px;
+    font-family: Georgia;
+    text-shadow: 1px 1px #000;
+}
+
+#copyb {
+    color: #000;
+    position: fixed;
+    bottom: 7px;
+    right: 11px;
+    font-family: Georgia;
+    text-shadow: 1px 1px #FFF;
+}
+
+#copy:hover {
+    cursor: default;
+}
+
+#copyb:hover {
+    cursor: default;
+}
+
+#social {
+    position: fixed;
+    bottom: 7px;
+    left: 4px;
+}
+
+#social1 {
+    position: relative;
+    font-size: 2vmax;
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+    padding: 7px;
+}
+
+#social1:hover {
+    top: -1px;
+    right: 1px;
+    cursor: pointer;
+    color: #228B22;
+    text-shadow: 1px 1px #000;
+}
+
+#socialb1 {
+    position: relative;
+    font-size: 2vmax;
+    color: #000;
+    padding: 7px;
+    text-shadow: 1px 1px #FFF;
+}
+
+#socialb1:hover {
+    top: -1px;
+    right: 1px;
+    cursor: pointer;
+    color: #228B22;
+    text-shadow: 1px 1px #000;
+}
