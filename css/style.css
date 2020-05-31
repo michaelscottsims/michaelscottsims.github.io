@@ -52,6 +52,24 @@ p:hover {
     text-decoration: none;
 }
 
+.txt2 {
+    position: relative;
+    font-family: 'kosharimedium';
+    font-size: 3.3vmax;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px #FFF;
+}
+
+.txt2:hover {
+    top: -1px;
+    right: 1px;
+    cursor: pointer;
+    color: #228B22;
+    text-shadow: 1px 1px #000;
+}
+
 .txt:hover {
     top: -1px;
     right: 1px;
@@ -72,7 +90,7 @@ p:hover {
 
 .txtbox {
     position: absolute;
-    top: 15%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -164,7 +182,7 @@ p:hover {
     font-size: 2vmax;
     color: #000;
     padding: 7px;
-    text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px #FFF;
 }
 
 #socialb1:hover {
